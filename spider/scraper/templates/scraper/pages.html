@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'scraper/styles1.css' %}">
+    <title>Pages Browser</title>
+</head>
+<body>
+    <header class="navbar">
+        <img src="{% static 'scraper/images/spider.png' %}">
+        <p><b>SPIDER UI</b></p>
+          <button class="dropbtn">LOGOUT</button>
+    </header>
+    <main>
+        <h2 class>Pages Browser</h2>
+        <div class="outer-grid"> 
+            <div class="inner-grid">
+                <button>SCRAPE</button>
+                <div class="numbering"><h3>1</h3></div>
+                <div class="inner-text">
+                    <h3>https://www.figma.com/file/67pQj2FeqkkZJOsx9zY53T/Spider?node-id=1%3A2</h3>
+                    <p id="scraped-links">https://www.example.net/?addition=arm#badge</p><br>
+                    <p id="scraped-links">https://branch.example.com/bedroom/board</p>    
+                </div>
+                
+            </div>
+            <div class="inner-grid">
+                <div class="numbering"><h3>2</h3></div>
+                <div class="inner-text">
+                    <h3>https://www.figma.com/file/67pQj2FeqkkZJOsx9zY53T/Spider?node-id=1%3A2</h3>
+                    <p>Page scraping in progress...</p>
+                </div>
+                
+            </div>
+            <div class="inner-grid">
+                <button>SCRAPE</button>
+                <div class="numbering"><h3>3</h3></div>
+                <div class="inner-text">
+                    <h3>https://www.figma.com/file/67pQj2FeqkkZJOsx9zY53T/Spider?node-id=1%3A2</h3>
+                    <p>No link has been scraped yet for this page</p>
+                </div>
+            </div>
+        
+    </main>
+   
+</body>
+</html>

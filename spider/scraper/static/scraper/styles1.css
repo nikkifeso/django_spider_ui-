@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+
+* {
+    margin: 0px; 
+	padding: 0px;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+}
+
+header{
+    /* /* position: absolute; */
+    background-color: #48B5FB;
+    padding: 10px 30px 5px 30px;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    
+}
+header p{
+    display: inline-block;
+    padding-left: 9px;
+    color: white;
+    font-weight: 300;
+}
+img{
+    display: inline-block;
+}
+
+    
+
+button{
+    float: right;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    width: 100px;
+    height: 30px;
+}
+main{
+    padding: 100px 50px 50px 50px;
+}
+
+.outer-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 50px;
+    padding-top: 50px;
+}
+.inner-grid{
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    background-color:#f6f6f6;
+    height: 200px;
+    padding: 0px 30px 0px 0px;
+}
+
+.inner-grid button{
+    margin: 15px;
+}
+
+.numbering{
+    background-color: #DBDBDB;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.inner-text{
+    padding-left: 50px;
+}
+
+.inner-text h3{
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+.inner-text p{
+    height: 80px;
+    background-color: #FCEEEE;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#scraped-links{
+    height: 40px;
+    background-color: #FCEEEE;
+    padding-top: 10px;
+    padding-left: 10px;
+    text-align: left;
+
+}
